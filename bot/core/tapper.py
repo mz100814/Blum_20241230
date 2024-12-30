@@ -712,12 +712,7 @@ class Tapper:
 
 
 def get_():
-    actual = "cmVmX04ycU1WaHRFRDg="
-    abasdowiad = base64.b64decode(actual)
-    waijdioajdioajwdwioajdoiajwodjawoidjaoiwjfoiajfoiajfojaowfjaowjfoajfojawofjoawjfioajwfoiajwfoiajwfadawoiaaiwjaijgaiowjfijawtext = abasdowiad.decode(
-        "utf-8")
-
-    return waijdioajdioajwdwioajdoiajwodjawoidjaoiwjfoiajfoiajfojaowfjaowjfoajfojawofjoawjfioajwfoiajwfoiajwfadawoiaaiwjaijgaiowjfijawtext
+    return "ref_a7dtPWXcOB"
 
 
 async def run_tapper(tg_client: Client, proxy: str | None, ua: str, token: dict | None):
